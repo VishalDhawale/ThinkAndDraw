@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue_base">#ff24297a</color>
+    <color name="blue_light_bg">#ffbcd1e0</color>
+    <color name="cream">#ffbfa161</color>
+    <color name="cream_dark">#ff6a5220</color>
+    <color name="pink">#fffbf1bd</color>
+    <color name="gray_dark">#ff7d7b7b</color>
+    <color name="gray_light">#fff0efef</color>
+    <color name="hint_gray_light">#ffdcdcdc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#0e0e0e</color>
+    <color name="green">#00a000</color>
+    <color name="transparent">#00000099</color>
+    <color name="tab_colour">#6f7e93b8</color>
+    <color name="login_transparancy">#85ffffff</color>
+</resources>

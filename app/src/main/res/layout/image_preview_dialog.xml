@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdcdcdc"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:id="@+id/ll_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ff7d7b7b"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_preview_image_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff24297a"
+            android:padding="4dp"
+            android:text="Delete"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:background="#ffbfa161"
+            android:padding="4dp"
+            android:text="Cancle"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_edit_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:background="#ffbfa161"
+            android:padding="4dp"
+            android:text="Edit"
+            android:textColor="#fff"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>
